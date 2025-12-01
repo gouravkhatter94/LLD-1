@@ -4,11 +4,11 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
-public class RecentlyViewItems {
+public class RecentlyViewedItems {
     LinkedList<Item> recentlyViewedItems;
     private final int MAX_SIZE = 3;
 
-    public RecentlyViewItems() {
+    public RecentlyViewedItems() {
         this.recentlyViewedItems = new LinkedList<>();
     }
 
